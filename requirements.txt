@@ -1,0 +1,14 @@
+streamlit
+pandas
+```
+
+### 4. **.gitignore**
+```
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+data/
+*.bkp
+.streamlit/secrets.toml
