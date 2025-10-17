@@ -6,7 +6,7 @@ import io
 
 st.set_page_config(page_title="BKP Parser", page_icon="📊", layout="wide")
 
-st.title("📊 BKP File Parser")
+st.title("BKP File Parser")
 st.markdown("Upload a BKP file to extract and analyze blocks")
 
 # File uploader
@@ -79,7 +79,7 @@ if uploaded_file is not None:
         st.exception(e)
 
 else:
-    st.info("👆 Upload a BKP file to get started")
+    st.info("Upload a BKP file to get started")
     
     # Add instructions
     with st.expander("ℹ️ How to use"):
